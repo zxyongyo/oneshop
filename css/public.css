@@ -1,0 +1,276 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+}
+
+/*top*/
+.top{
+	width: 100%;
+    min-width: 1200px;
+    height: 35px;
+    line-height: 35px;
+    background: linear-gradient(to bottom, #d1d1d1, #f4f4f4, #f5f5f5);
+}
+.nav{
+	width: 92%;
+	height: 35px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #555;
+}
+.nav .right{
+	width: 620px;
+}
+.mine .login{
+	color: #555;
+}
+.mine .login:hover{
+	color: #fe5304;
+}
+.mine .res{
+	color: #FE5304;
+}
+.mine .order{
+	color: #555;
+}
+.mine .order:hover{
+	color: #FE5304;
+}
+.list ul{
+	position: relative;
+}
+.list ul li{
+	width: 70px;
+}
+.list ul li i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+    top: -30px;
+    left: 50px;
+    background: url(../img/home/t_arrow.gif) no-repeat 2px 8px;
+}
+.list ul li a{
+	color: #555;
+}
+.list ul li a:hover{
+	color: #FE5304;
+}
+.link a{
+	color: #555;
+	cursor: default;
+	padding-right: 55px;
+}
+.link .vb{
+	display: block;
+	width: 20px;
+	height: 30px;
+	position: relative;
+    top: -60px;
+    left: 70px;
+    background: url(../img/home/sh1.png) no-repeat 0 2px;
+    cursor: pointer;
+}
+.link .vx{
+	display: block;
+	width: 20px;
+	height: 30px;
+	position: relative;
+	top: -30px;
+	left: 95px;
+	background: url(../img/home/sh2.png) no-repeat 0 6px;
+	cursor: pointer;
+}
+.phone{
+	display: inline-block;
+	width: 62px;
+	background: url(../img/home/s_tel.png) no-repeat 50px 8px;
+	cursor: pointer;
+}
+.phone:hover{
+	color: #FE5304;
+}
+.select{
+    width: 116px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 29px;
+    margin-left: -58px;
+    z-index: 900;
+    transition: all .2s; 
+    /*display: none;*/	
+    height: 0;
+}
+.select_list{
+	overflow: hidden;
+    background-color: #FFF;
+    margin-top: 6px;
+    padding: 10px 0;
+    border: 1px solid #cdcdcd;	
+}
+.select_list ul li{
+	width: 100%;
+	height: 25px;
+    line-height: 25px;
+    /*overflow: hidden;*/
+    text-align: center;
+}
+.serve:hover .select{
+	/*display: block;*/
+	height: 116px;
+}
+/*top结束*/
+
+
+/*bottom*/
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+	/*margin-top: -50px;*/
+}
+.pic_list{
+    width: 980px;
+    min-width: 980px;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;	
+}
+.pic_list ul li{
+    color: #888888;
+    font-size: 14px;
+    width: 210px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;	
+}
+.pic_list ul li h2{
+	margin: 10px 0;
+    color: #3e3e3e;
+    font-size: 16px;	
+    font-weight: 100;
+}
+.pic_list ul li img{
+	/*width: 62px;*/
+	transition: all 3s;
+}
+.pic_list ul li img:hover{
+	/*width: 80px;*/
+	transform: rotate(360deg) scale(1.2);
+}
+.f_middle{
+	width: 1050px;
+	height: 220px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding: 0px 50px;
+	border-bottom: 1px solid #ccc;
+}
+.m_list li{
+	width: 150px;
+}
+.m_list li dl dt{
+	color: #3e3e3e;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.m_list li dl dt:hover{
+	text-decoration: underline;
+}
+.m_list li dl dd{
+	color: #888;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.m_list li dl dd:hover{
+	color: #FE5304;
+}
+.m_pic{
+	width: 136px;
+	height: 136px;
+	border: 1px solid #ccc;
+}
+.m_hotline{
+	width: 133px;
+    color: #888888;
+    margin-top: 10px;
+    margin-left: 15px;
+} 
+.m_hotline .xl{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    background: url(../img/home/b_sh_1.png) no-repeat left center;
+    color: #888888;
+    font-size: 14px;
+    text-indent: 32px;
+    display: inline-block;	
+}
+.m_hotline .tx{
+	width: 100%;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    background: url(../img/home/b_sh_2.png) no-repeat left center;
+    color: #888888;
+    font-size: 14px;
+    text-indent: 32px;
+    display: inline-block;
+}
+.m_hotline p{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.m_hotline span{
+	color: #FE5304;
+	font-size: 19px;
+}
+.m_hotline a:hover{
+	color: #FE5304;
+}
+
+.f_bottom p{
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+}
+.f_bottom ul{
+	width: 660px;
+	margin: 0 auto;
+}
+.f_bottom ul li img{
+	width: 98px;
+    height: 33px;
+    display: inline-block;
+    margin: 15px 5px 5px 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+/*bottom结束*/

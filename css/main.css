@@ -1,0 +1,61 @@
+*{
+	font-size: 13px;
+}
+nav .wrap{
+	width: 100%;
+	height: 30px;
+	background: rgb(244,244,244);
+	position: relative;
+	overflow: hidden;
+}
+nav .wrap .address{
+	float: left;
+	line-height: 30px;
+	margin-left:90px ;
+	cursor: pointer;
+}
+nav .wrap .address:hover{
+	color: rgb(255,78,0);
+}
+nav .wrap .nav-right ul{
+	float: right;
+	line-height: 30px;
+	margin-right: 90px;
+}
+nav .wrap .nav-right ul li{
+	float: left;
+}
+nav .wrap .nav-right ul .login a{
+	text-decoration: none;
+	color: rgb(255,78,0);
+}
+nav .wrap .nav-right ul .login span{
+	cursor: pointer;
+}
+nav .wrap .nav-right ul .login span:hover{
+	color: rgb(255,78,0);
+}
+nav .wrap .nav-right ul .xl span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+    background: url(../img/i_down.gif) no-repeat 56px 10px;
+    background-size: 13px;
+    cursor: pointer;
+}
+nav .wrap .nav-right ul .xl span:hover{
+	color: rgb(255,78,0);
+	background: url(../img/i_down_h.gif) no-repeat 56px 10px;
+	background-size: 12px;
+}
+nav .wrap .nav-right ul li .sj{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	background: url(../img/i_tel.png) no-repeat 62px 5px;
+	background-size: 12px;
+	cursor: pointer;
+}
+nav .wrap .nav-right ul li .sj:hover{
+	color: rgb(255,78,0);
+}

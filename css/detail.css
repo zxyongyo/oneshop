@@ -1,0 +1,501 @@
+.wrap{
+	position: relative;
+	top: -25px;
+}
+.wrap .position{
+	font-size: 12px;
+	color: #555;
+}
+.wrap .position i{
+	color: #f00;
+}
+.detail{
+	margin-top: 16px;
+}
+.detail_img .img_big{
+	width: 395px;
+    height: 400px;
+    border: 1px solid #ddd;
+}
+.img_thumb{
+	width: 397px;
+	margin-top: 10px;
+	position: relative;
+}
+.img_thumb ul{
+	margin-left: 12px;
+}
+.img_thumb ul li{
+	width: 88px;
+	/*height: 80px;*/
+	margin-left: 4px;
+	
+}
+.img_thumb img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ddd;
+	padding: 2px;
+	cursor: pointer;
+}
+.img_thumb .prev{
+	width: 15px;
+    height: 90px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/detail/r_left.png) no-repeat center;
+}
+.img_thumb .next{
+	width: 15px;
+    height: 90px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: -15px;
+    background: url(../img/detail/r_right.png) no-repeat center;
+}
+.detail_des{
+	width: 500px;
+	height: 400px;
+	margin-left: 50px;
+}
+.des_title h2{
+	color: #3e3e3e;
+    font-size: 18px;
+}
+.des_title span{
+    color: #888;
+    font-size: 14px
+}
+.des_price{
+	height: 64px;
+	line-height: 32px;
+	font-size: 12px;
+	color: #555;
+	margin-top: 20px;
+}
+.des_price span{
+	color: #ff3c3c;
+    font-size: 18px;	
+    font-weight: bold	
+}
+.standard{
+	margin-top: 20px;
+}
+.size,.color{
+	line-height: 40px;
+    color: #888;
+    font-size: 12px;
+}
+.size ul{
+	height: 30px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 3px;
+}
+.size ul li{
+	width: 68px;
+	height: 28px;
+	cursor: pointer;
+	margin-left: 10px;
+	border: 1px solid #888;
+}
+.size ul li.active{
+	border: 2px solid #ff3c3c;
+	background:url(../img/detail/ch.png) no-repeat 51px 11px;
+}
+.color ul li.active{
+	border: 2px solid #ff3c3c;
+	background:url(../img/detail/ch.png) no-repeat 51px 11px;
+}
+.color ul{
+	height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+.color ul li{
+	width: 68px;
+	height: 28px;
+	cursor: pointer;
+	margin-left: 10px;
+	border: 1px solid #888;
+}
+.des_share{
+	width: 250px;
+	height: 60px;
+	position: relative;
+	margin-top: 30px;
+}
+.des_share a{
+	width: 90px;
+    height: 27px;
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+    line-height: 27px;
+	display: block;    
+    float: left;
+    margin-right: 35px;
+}
+.des_share a:hover{
+	color: #ff4e00;
+}
+.des_share a:nth-child(1){
+	background: url(../img/detail/sh.png) no-repeat 14px 5px;
+}
+.des_share a:nth-child(2){
+	background: url(../img/detail/care.png) no-repeat 0 5px;
+}
+.des_add input{
+	width: 80px;
+	height: 41px;
+	font-size: 16px;
+	text-align: center;
+}
+.des_add a{
+	margin-left: 12px;
+}
+.store{
+	border: 1px solid #ddd;
+}
+.store img{
+	width: 188px;
+	height: 134px;
+}
+.enter{
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	background-color: #f6f6f6;
+}
+.enter a{
+	color: #555;
+	font-size: 16px;
+}
+.enter a:hover{
+	color: #FF4E00;
+}
+.wrapper{
+	margin-top: 20px;
+	width: 100%;
+}
+.wrapper .userlike{
+	background-color: #f6f6f6;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #eaeaea;
+	font-size: 14px;
+	color: #555;
+	text-indent: 1em;
+}
+.like{
+	width: 211px;
+	
+}
+.like img{
+	margin-top: 10px;
+}
+.like ul li{
+	width: 211px;
+	height: 240px;
+	border: 1px solid #eaeaea;
+	border-bottom: none;
+	float: none;
+}
+.like ul li a{
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	color: #555;
+	text-align: center;
+}
+.like ul li a:hover{
+	color: #FF4E00;
+}
+.like ul li span{
+	display: block;
+	width: 100%;
+	color: #B00504;
+    font-size: 18px;
+    text-align: center;
+}
+.like ul li:last-child{
+	border-bottom: 1px solid #eaeaea;
+}
+.recommend{
+	width: 987px;
+	height: 240px;
+	border: 1px solid #eaeaea;
+	position: relative;
+}
+.rec_tab{
+	width: 110px;
+	height: 32px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	position: absolute;
+	top: -32px;
+	line-height: 32px;
+	text-align: center;
+	border-top: 2px solid #FF4E00;
+}
+.rec_list .img{
+	width: 180px;
+	height: 160px;
+	line-height: 160px;
+}
+.rec_list .img img{
+	vertical-align: middle;
+	margin-left: 35px;
+}
+.list_itme .name{
+	width: 150px;
+	margin-left: 30px;
+}
+.list_itme p{
+	font-size: 12px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.list_itme span{
+	font-size: 16px;
+    color: #999;
+    margin-left: 50px;
+}
+.plus,.equal{
+	width: 25px;
+	height: 25px;
+	line-height: 200px;
+	padding-right: 30px;
+}
+.plus img{
+	vertical-align: middle;
+	margin: 0 20px;
+}
+.equal img{
+	vertical-align: middle;
+	margin: 0 20px;
+}
+.rec_buy{
+	width: 238px;
+	height: 220px;
+}
+.rec_buy p{
+	font-size: 12px;
+	color: #FF4E00;
+	margin-top: 55px;
+	margin-bottom: 10px;
+}
+.rec_buy span{
+	font-size: 18px;
+}
+.rec_buy input{
+	width: 60px;
+	height: 25px;
+	text-align: center;
+	font-size: 14px;
+	color: #555;
+	text-indent: 1em;
+	display: block;
+	margin-bottom: 10px;
+}
+.property{
+	width: 989px;
+	margin-top: 10px;
+}
+.property .tab{
+	background-color: #f6f6f6;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #eaeaea;
+}
+.property .tab ul li{
+	width: 110px;
+	height: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #555;
+	cursor: pointer;
+}
+.property .tab ul li.active{
+	border-top: 2px solid #ff4e00;
+	background-color: #fff;
+	
+}
+.pro_list{
+	height: 150px;
+	border: 1px solid#EAEAEA;
+}
+.pro_list ul{
+	margin-top: 35px;
+	font-size: 12px;
+	color: #555;
+}
+.pro_list ul li{
+	margin: 0 80px 0 25px;
+}
+.pro_list ul li p{
+	padding: 6px 0;
+}
+.goods_detail{
+	margin-top: 10px;
+}
+.goods_detail .tab{
+	width: 989px;
+	height: 36px;
+	line-height: 38px;
+	text-indent: 1.5em;
+	background-color: #f6f6f6;
+	font-size: 14px;
+	color: #fd4e00;
+	border-top: 2px solid #FF4E00;
+}
+.img_list img{
+	margin-top: 25px;
+	margin-left: 120px;
+}
+.comment{
+	width: 989px;
+/*	height: 150px;*/
+	border: 1px solid #EAEAEA;
+}
+.comment .tab{
+	width: 989px;
+    height: 36px;
+    line-height: 38px;
+    text-indent: 1.5em;
+    background-color: #f6f6f6;
+    font-size: 16px;
+    color: #fd4e00;
+}
+.goodcom{
+	width: 927px;
+	height: 128px;
+	border: 1px solid #EAEAEA;
+	margin-left: 30px;
+	margin-top: 25px;
+	box-sizing: border-box;
+}
+.goodcom div{
+	height: 68px;
+    color: #ff4e00;
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 25px;
+}
+.goodcom h2{
+	font-size: 34px;
+    font-weight: 400;
+    color: #FF4E00;
+}
+.chart{
+	padding-right: 40px;
+	border-right: 1px solid#eaeaea;
+}
+.chart p{
+	padding: 1px 0;
+	line-height: 22px;
+}
+.chart p span{
+	font-size: 12px;
+	color: #555;
+	margin-right: 15px;
+}
+.explain{
+	width: 215px;
+	border-right: 1px solid #eaeaea;
+}
+.explain p{
+	width: 190px;
+	font-size: 12px;
+	color: #555;
+	text-align: left;
+	line-height: 22px;
+}
+.goodcom .com{
+	margin: 30px 0;
+	font-size: 12px;
+	color: #555;
+}
+.goodcom .com a{
+	display: block;
+	width: 120px;
+	height: 36px;
+	background-color: #f0f0f0;
+	color: #717171;
+	line-height: 36px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.com_list{
+	width: 100%;
+	margin-top: 28px;
+}
+.com_list ul li{
+	float: none;
+	width: 100%;
+	height: 85px;
+	padding: 25px;
+	font-size: 12px;
+	color: #555;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eaeaea;
+}
+.com_list ul li img{
+	margin-right: 5px;
+}
+.com_list ul li div{
+	width: 250px;
+	color: #555;
+	font-size: 12px;
+	height: 35px;
+}
+.com_list ul li p{
+	line-height: 20px;
+}
+.com_list ul li span{
+	color: #999;
+}
+.page{
+	width: 988px;
+	height: 105px;
+	border: 1px solid #eaeaea;
+	border-top: none;
+	position: relative;
+}
+.page a{
+	height: 36px;
+    line-height: 36px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 4px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.pages{
+	position: absolute;
+	right:15px;
+	bottom: 20px;
+}
+.pages a.active{
+	background-color: #ff4e00;
+	color: #fff;
+}
+.pages a:hover{
+	background-color: #ff4e00;
+	color: #fff;
+}
+.pages a.p:hover{
+	background-color: #eaeaea;
+	color: #666;
+}

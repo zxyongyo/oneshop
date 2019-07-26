@@ -1,0 +1,250 @@
+.classify{
+	width: 1200px;
+	height: 210px;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+}
+.classify .brand{
+	height: 70px;
+	border: 1px solid #ccc;
+}
+.classify .price,.color,.pearl_kind{
+	height: 45px;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+.brand title{
+	display: inline-block;
+	font-size: 12px;
+	color: #555;
+	height: 70px;
+	line-height: 55px;
+	margin-left: 20px;
+}
+.brand p{
+	float: right;
+	line-height: 22px;
+	padding: 11px;
+    width: 1100px;
+}
+.brand p a{
+	font-size: 12px;
+	color: #555;
+	margin-left: 25px;
+}
+.brand p a.active{
+	color: #FF4E00;
+}
+.brand p a:hover{
+	color: #FF4E00;
+}
+.price title{
+	display: inline-block;
+    font-size: 12px;
+    color: #555;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 20px;
+}
+.price p{
+	float: right;
+	line-height: 22px;
+	padding: 11px;
+    width: 1100px;
+}
+.price p a{
+	font-size: 12px;
+	color: #555;
+	margin-left: 25px;
+}
+.price p a.active{
+	color: #FF4E00;
+}
+.price p a:hover{
+	color: #FF4E00;
+}
+.color title{
+	display: inline-block;
+    font-size: 12px;
+    color: #555;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+.color p{
+	float: right;
+	line-height: 22px;
+	padding: 12px;
+	width: 1100px;
+}
+.color p a{
+	font-size: 12px;
+	color: #555;
+	margin-left: 25px;
+}
+.color p a.active{
+	color: #FF4E00;
+}
+.color p a:hover{
+	color: #FF4E00;
+}
+.pearl_kind title{
+	display: inline-block;
+    font-size: 12px;
+    color: #555;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+.pearl_kind p{
+	float: right;
+	line-height: 22px;
+	padding: 12px;
+	width: 1100px;
+}
+.pearl_kind p a{
+	font-size: 12px;
+	color: #555;
+	margin-left: 25px;
+}
+.pearl_kind p a.active{
+	color: #FF4E00;
+}
+.pearl_kind p a:hover{
+	color: #FF4E00;
+}
+.history{
+	width: 212px;
+	height: 40px;
+	border: 1px solid #eaeaea;
+}
+.history .title .h{
+	display: block;
+	margin-left: 10px;
+	border-left: 3px solid #FF4E00;
+	font-size: 16px;
+	color: #FF4E00;
+	height: 20px;
+	margin-top: 8px;
+	text-indent: .5em;
+}
+.history .title .c{
+	display: block;
+	font-size: 14px;
+	color: #555;
+	line-height: 40px;
+	margin-right: 10px;
+}
+.wrapper .list{
+	width: 988px;
+	margin-top: -43px;
+	/*border-bottom: 1px solid #eaeaea;*/
+}
+.list_top{
+	border-bottom: 1px solid #eaeaea;
+}
+.list_top span a{
+	width: 68px;
+    height: 23px;
+    line-height: 23px;
+    color: #555555;
+    text-indent: 12px;
+    float: left;
+    font-size: 12px;
+    display: inline;
+    margin-right: -1px;
+    margin-top: 8px;
+    border: 1px solid #cccccc;
+}
+.list_top span a:hover{
+	color: #fff;
+	background-color: #FF4E00;
+}
+.list_top span a.active{
+	color: #fff;
+	background-color: #FF4E00;
+}
+.list_top span.find{
+	font-size: 12px;
+	color:#555;
+	line-height: 42px;
+}
+.list_img{
+	width: 988px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list_img .list_item{
+	width: 210px;
+    height: 277px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.list_img .list_item:hover{
+	box-shadow: 0 0 5px #e0e0e0;
+}
+.list_img .list_item img{
+	width: 210px;
+	height: 185px;
+}
+.list_img .title p{
+	font-size: 18px;
+	line-height: 25px;
+	color: #FF4E00;
+	text-align: center;
+}
+.list_img .title a{
+	display: block;
+	font-size: 14px;
+	color: #555;
+	text-align: center;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+.list_img .title a:hover{
+	color: #FF4E00;
+}
+.connect{
+	width: 209px;
+    height: 30px;
+    margin-top: 15px;
+    
+}
+.collect .like{
+	width: 68px;
+    height: 28px;
+    line-height: 28px;
+    background: url(../img/search/heart.png) no-repeat 10px center;
+    color: #888888;
+    text-indent: 33px;
+    float: left;
+    display: inline;
+    margin-right: -1px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+}
+.collect .add{
+	width: 138px;
+    height: 28px;
+    line-height: 28px;
+    background: url(../img/search/cars.png) no-repeat 24px center;
+    color: #ff4e00;
+    text-indent: 47px;
+    float: left;
+    display: inline;
+    margin-right: -1px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+}
+.collect .like:hover{
+	background: url(../img/search/care.png) no-repeat 10px center;
+}
+.collect .add:hover{
+	color: #fff;
+	background: #FF4E00 url(../img/search/cars_h.png) no-repeat 24px center;
+}
+.page{
+	border: none;
+}
